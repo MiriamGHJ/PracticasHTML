@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Informe pastelero</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+           
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(207, 101, 93);
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(207, 101, 93);
+            padding: 1px;
+            text-align: right;
+            font-size: 50px;
+            font-family: 'Lucida Sans Unicode';
+            color: rgb(255, 255, 255);
+            
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: right;
+            width: 100%;
+            height: 65px;
+            /* only for demonstration, should be removed */
+            background: rgb(207, 101, 93);
+            font-family: 'Lucida Sans Unicode';
+            text-align: center;
+            padding: 40px;
+            color: rgb(255, 249, 249);
+        }
+
+        article {
+            float: center;
+            width: 100%;
+            height: 50px;
+            background-color: #d49644;
+            padding: 100px;           
+            font-family: 'Lucida Sans Unicode';
+            text-align: center;
+            font-size: 50px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 100;
+            color: white;
+        }
+
+        
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer background-color: #777; */
+        footer {
+            
+            background: rgb(239, 180, 241);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+     
+    <ul>
+        <a href="#" target="blank">Inicio</a> |
+        <a href="#">Menú</a>  |
+        <a href="#">Cotización</a>    |
+        <a href="#">Arma tu pastel</a>  |   
+        <a href="#">Pedidos</a>  |   
+        <h1>Almacén</h1>
+        <h2>Cantidad de sabores</h2>    
+    </ul>
+    
+        <img src="https://muchosnegociosrentables.com/wp-content/uploads/2017/12/C%C3%B3mo-montar-una-tienda-de-pasteles-o-pasteler%C3%ADa.jpg"
+        width="1345px" 
+        height="700px" align="center"> 
+ 
+        <table>
+            <dl>
+                <h2>Sabores------------------------------Cantidad</h2>
+                <dd>- Chocolate...........................................................45</dd>  
+                <dd>- Coco...................................................................37</dd>
+                <dd>- Fresa..................................................................25</dd>
+                <dd>- Vainilla................................................................30</dd>
+                <dd>- Choco fresa........................................................90</dd>
+                <dd>- Piña coco..........................................................100</dd>
+                <dd>- Café y galletas....................................................79</dd>
+        
+            </dl>
+
+            <dl>
+                <h2>Decoraciones...........................Cantidad</h2>
+                <dd>Cobertura de chocolate............................................100</dd>
+                <dd>Fondant.....................................................................45</dd>
+                <dd>Salsa de caramelo.....................................................25</dd>
+                <dd>Betunes......................................................................100</dd>
+                <dd>Glaseados...................................................................65</dd>
+                <dd>Floral...........................................................................30</dd>
+                <dd>Perlas...........................................................................90</dd>
+        </ul>
+        
+            </dl>
+        </table>
+
+          <table>
+              <ul>
+              <a target="blank">Número de pedido</a> | 
+              <a target="blank">Cliente</a> |
+              <a target="blank">Detalles del pedido</a> |
+              </ul>
+    
+              <a target="blank">"................................"</a>           |
+              <a target="blank">"................................"</a>           |
+              <a target="blank">"....................................."</a> |
+          </table>
+     
+          
+
+        
+      
+    <header>
+ 
+     <div>
+        <p>  
+           
+        </p>
+     </div>
+    </header>
+
+    <section >
+        <nav >
+           
+        </nav>
+    </section>
+    <section>
+
+        <article >
+            Contáctanos
+            <h1></h1>
+            <p></p>
+        </article>
+    </section>
+
+    <footer>
+        
+        <h1></h1>
+        <p> </p>
+        
+            <p>Visitanos en:<br><a class="direccion"></i>20 poniente sur 1508</a> </p>
+            <p>O llámanos al:<br><a><i class="icon footer-icon phone"></i>5540 4131</a></p> 
+      
+        <table>
+            <tr>
+                
+                <th>Compañía</th>
+                <th>Información importante</th>
+              
+                <th>Sucursales en la república mexicana</th>
+            </tr>
+            <tr>
+                <td>Fundación</td>
+                <td>Términos y condiciones</td>
+                <td>Chiapas</td>
+            </tr>
+            <tr>
+                <td>Empresa socialmente respondable</td>
+                <td>Aviso de privacidad</td>
+                <td>Guadalajara</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

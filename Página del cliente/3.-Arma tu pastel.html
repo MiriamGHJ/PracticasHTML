@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arma tu pastel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+           
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(207, 101, 93);
+            font-size: 30px;
+            color: rgb(255, 255, 255);
+        }
+
+        /* Estilo de header */
+        header {
+            background-color: rgb(207, 101, 93);
+            padding: 1px;
+            text-align: right;
+            font-size: 50px;
+            font-family: 'Lucida Sans Unicode';
+            color: rgb(255, 255, 255);
+            
+        }
+
+        /* Crear 2 columnas con la misma posición en la fila */
+        nav {
+            float: right;
+            width: 100%;
+            height: 65px;
+            /* only for demonstration, should be removed */
+            background: rgb(207, 101, 93);
+            font-family: 'Lucida Sans Unicode';
+            text-align: center;
+            padding: 40px;
+            color: rgb(255, 249, 249);
+        }
+
+        article {
+            float: center;
+            width: 100%;
+            height: 50px;
+            background-color: #d49644;
+            padding: 100px;           
+            font-family: 'Lucida Sans Unicode';
+            text-align: center;
+            font-size: 50px;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            padding: 100;
+            color: white;
+        }
+
+        
+        /* Clear floats after the columns */
+        section::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Estilo de footer background-color: #777; */
+        footer {
+            
+            background: rgb(239, 180, 241);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+     
+    <ul>
+        <a href="#" target="blank">Inicio</a> |
+        <a href="#">Menú</a>  |
+        <a href="#">Cotización</a>    |
+        <a href="#">Arma tu pastel</a>  |   
+        <a href="#">Pedidos</a>  |   
+        <h1>Arma tu pastel</h1>
+        <h2>Sabores</h2>    
+    </ul>
+    
+        <img src="https://i.pinimg.com/originals/12/df/06/12df0639cd0473ad03e96ca13e024003.jpg"
+        width="1345px" 
+        height="700px" align="center"> 
+
+      <h2>Elije hasta 3 sabores</h2><br>
+      <input type="checkbox" id="topping1" name="topping1" value="Chocolate">
+      <label for="topping1">Sabor chocolate</label><br>
+      <input type="checkbox" id="topping2" name="topping2" value="Coco">
+      <label for="topping2">Sabor Coco</label><br>
+      <input type="checkbox" id="topping3" name="topping3" value="Fresa">
+      <label for="topping3">Sabor fresa</label><br><br>
+      <input type="checkbox" id="topping4" name="topping4" value="Vainilla">
+      <label for="topping4">Sabor Vainilla</label><br><br>
+      <input type="checkbox" id="topping5" name="topping5" value="Choco Fresa">
+      <label for="topping5">Sabor chocofresa</label><br><br>
+      <input type="checkbox" id="topping6" name="topping6" value="Piña Coco">
+      <label for="topping6">Sabor Piña Coco</label><br><br>
+      <input type="checkbox" id="topping7" name="topping7" value="Cafe y galletas">
+      <label for="topping7">Sabor Café y galletas</label><br><br>
+      
+        <h2>Decoraciones</h2>
+        <img src="https://i.pinimg.com/originals/42/99/b3/4299b38783b2712ba299740192eb2b67.png"
+        width="1345px" 
+        height="750px" align="center">
+
+        <h2>Elije tu decoración</h2><br>
+      <input type="checkbox" id="topping1" name="topping1" value="Cobertura de chocolate">
+      <label for="topping1">Cobertura de chocolate</label><br>
+      <input type="checkbox" id="topping2" name="topping2" value="Fondant">
+      <label for="topping2">Fondant</label><br>
+      <input type="checkbox" id="topping3" name="topping3" value="Salsa de caramelo">
+      <label for="topping3">Salsa de caramelo</label><br><br>
+      <input type="checkbox" id="topping4" name="topping4" value="Betunes">
+      <label for="topping4">Betunes</label><br><br>
+      <input type="checkbox" id="topping5" name="topping5" value="Glaseados">
+      <label for="topping5">Glaseados</label><br><br>
+      <input type="checkbox" id="topping6" name="topping6" value="Floral">
+      <label for="topping6">Floral</label><br><br>
+      <input type="checkbox" id="topping7" name="topping7" value="Perlas">
+      <label for="topping7">Perlas</label><br><br>
+      <input type="submit" value="Hacer pedido">
+    <header>
+ 
+     <div>
+        <p>  
+           
+        </p>
+     </div>
+    </header>
+
+    <section >
+        <nav >
+           
+        </nav>
+    </section>
+    <section>
+
+        <article >
+            Contáctanos
+            <h1></h1>
+            <p></p>
+        </article>
+    </section>
+
+    <footer>
+        
+        <h1></h1>
+        <p> </p>
+        
+            <p>Visitanos en:<br><a class="direccion"></i>20 poniente sur 1508</a> </p>
+            <p>O llámanos al:<br><a><i class="icon footer-icon phone"></i>5540 4131</a></p> 
+      
+        <table>
+            <tr>
+                
+                <th>Compañía</th>
+                <th>Información importante</th>
+              
+                <th>Sucursales en la república mexicana</th>
+            </tr>
+            <tr>
+                <td>Fundación</td>
+                <td>Términos y condiciones</td>
+                <td>Chiapas</td>
+            </tr>
+            <tr>
+                <td>Empresa socialmente respondable</td>
+                <td>Aviso de privacidad</td>
+                <td>Guadalajara</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
